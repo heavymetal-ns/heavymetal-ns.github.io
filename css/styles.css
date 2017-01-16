@@ -1,0 +1,169 @@
+/**
+ * @author Natan Felles natanfelles@gmail.com
+ */
+body {
+	background-color: #000;
+	color: #bbb;
+	padding-bottom: 20px;
+}
+
+h1 {
+	color: #d8b51e;
+	font-weight: 700;
+	font-size: 300%;
+}
+
+h1 small {
+	color: #ccc;
+}
+
+h1 span {
+	float: right;
+	font-size: 50% !important;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.fa-twitter:hover {
+	color: #2aabd2;
+}
+
+.fa-youtube:hover {
+	color: #c12e2a
+}
+
+.fa-facebook-official:hover {
+	color: #335590
+}
+
+.fa-google-plus:hover {
+	color: #c13919
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+a {
+	color: #bbb;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+}
+
+#toTop,
+.panel {
+	background-color: #111;
+	border-radius: 4px 4px 0 0;
+}
+
+.panel-default {
+	border-color: #222;
+}
+
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #222;
+	border-color: #222;
+	font-size: 20px;
+}
+
+.list-group-item {
+	background-color: #111;
+	border-color: #222;
+}
+
+a.list-group-item:hover,
+button.list-group-item:hover,
+a.list-group-item:focus,
+button.list-group-item:focus {
+	color: #fff;
+	background-color: #222;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+	color: #000;
+	background-color: #d8b51e;
+	border-color: #b7a333;
+	font-weight: 700;
+}
+
+a.list-group-item,
+button.list-group-item {
+	color: #bbb;
+}
+
+.badge {
+	min-width: 40px;
+	background-color: #761c19;
+}
+
+.btn-primary,
+.list-group-item.active > .badge {
+	color: #fff;
+	background-color: #2b669a;
+}
+
+.btn-success {
+	background-color: #259325;
+	border-color: #398439;
+}
+
+.btn-success:hover {
+	background-color: #136b13;
+	border-color: #398439;
+}
+
+#content .panel-body p {
+	text-indent: 25px;
+	text-align: justify;
+	font-size: 15px;
+}
+
+#images .modal-body {
+	padding: 0;
+}
+
+.icon-prev,
+.icon-next {
+	font-weight: 700;
+	font-size: 50px !important;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #222;
+}
+
+.panel-heading a:hover,
+.panel-heading a:focus {
+	color: #fff;
+}
+
+#toTop {
+	display: none;
+	background: #111;
+	bottom: 40px;
+	right: 40px;
+	position: fixed;
+	z-index: 999;
+	border: 1px solid #222;
+	color: #bbb;
+	font-size: 30px;
+	padding: 10px;
+	transition: all linear .2s;
+	opacity: .8;
+}
+
+#toTop:hover {
+	background-color: #222;
+	opacity: 1;
+}
+
+audio {
+	display: none;
+}
